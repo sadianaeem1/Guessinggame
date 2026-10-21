@@ -1,27 +1,22 @@
-# Number Guessing Game
+# 🎯 Number Guessing Game
 
-A simple and fun command-line Python game where the player tries to guess the secret number.
+An interactive Python game where the computer picks a random number between 1-20 and you have 3 chances to guess it!
 
-This is my first Python project, built while learning Python fundamentals.
+### ✨ Features
+- Random number generation (1 to 20)
+- 3 attempts with attempt counter
+- Smart input validation (handles letters & out-of-range numbers)
+- Visual separators for clean gameplay
+- Replay option - play again without restarting
+- For/Else logic explained
 
-### Features
-- Random number generation between 1 and 20
-- 3 chances to guess the correct number
-- Instant feedback: Too high / Too low
-- Win/Lose messages
-
-### How to Run
-1. Clone this repository
-2. Run the game:
-python game1.py
-
-### What I Learned
-- Using random module
-- if-else conditions
-- for loops and input()
-- Basic error handling
-
-### Tech Stack
+### 🛠️ Built With
 - Python 3
+- `random` module
 
-Made with love by Sadia Naeem!
+### ▶️ How to Play
+```bash
+python game1.py
+📝 How It Works
+Computer generates a numberYou enter your guessHint: Higher or LowerWin in 3 tries or Game Over!Option to replay
+Made by Sadia Naeem!
